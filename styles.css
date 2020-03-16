@@ -167,6 +167,11 @@ a.social:hover {
   clear: both;
 }
 
+.active {
+  height: 95%;
+  width: 95%;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -204,4 +209,6 @@ a.social:hover {
   }
 
 }
+
+  
 
