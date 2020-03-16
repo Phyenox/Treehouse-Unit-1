@@ -59,6 +59,7 @@ a:hover {
   color: white
 }
 
+
 header {
   text-align: center;
   background: url('images/sunset.jpg') no-repeat top center ;
@@ -81,17 +82,24 @@ header .profile-image:hover {
   transform: scale(1.5) rotate(20deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: rgb(42, 13, 121);
+  color: rgb(230, 142, 42);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
+  background-color: rgb(42, 13, 121);
   color: rgb(230, 142, 42);
 }
+
+.card-header {
+  font-family: monospace;
+  font-size: 0.7cm;
+  color: rgb(42, 13, 121);
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -103,6 +111,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
+  
   border-color: rgb(230, 142, 42);
 }
 
@@ -171,8 +180,8 @@ a.social:hover {
   clear: both;
 }
 
-.india {
-  height: 350px;
+.image {
+  height: 250px;
   width: 400px;
 }
 
