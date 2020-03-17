@@ -75,8 +75,8 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid rgb(42, 13, 121);
-  transition: all .5s;
+  border: 2px solid rgb(42, 13, 121);
+  transition: all 1s;
 }
 header .profile-image:hover {
   transform: scale(1.5) rotate(20deg);
@@ -183,6 +183,13 @@ a.social:hover {
 .image {
   height: 270px;
   width: 400px;
+  border-radius: 8px;
+}
+
+.image-pet {
+  height: 200px;
+  width: 270px;
+  border-radius: 8px;
 }
 
 
